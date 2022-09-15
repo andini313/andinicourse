@@ -1,0 +1,2 @@
+# andinicourse
+tugas odoo 
