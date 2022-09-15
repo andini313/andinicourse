@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- dikimart.barangdatang form view -->
+    <record id="daftarcourse_terbaru_view_form_wizzard" model="ir.ui.view">
+        <field name="name">Course Terbaru</field>
+        <field name="model">courseandini.tambahcourse</field>
+        <field name="arch" type="xml">
+            <form string="Form Tambah Course">
+                <group>
+                    <field name="daftarcourse_id" />
+                    <field name="jumlah" />
+                </group>
+                <footer>
+                    <button name='button_tambah_course'
+                            type='object'
+                            string='Simpan'
+                            class='btn btn-primary' />
+                    <button string='Cancel'
+                            special='cancel'
+                            class='btn btn-secondary' />
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <!-- dikimart.barang action window -->
+    <record id="daftarcourse_terbaru_action_wizzard" model="ir.actions.act_window">
+        <field name="name">Tambah Course</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">courseandini.tambahcourse</field>
+        <field name="view_mode">tree,form</field>
+        <field name="view_id" ref='daftarcourse_terbaru_view_form_wizzard' />
+        <field name="target">new</field>
+    </record>
+
+    <!-- This Menu Item must have a parent and an action -->
+    <menuitem 
+        id="daftarcourse_terbaru_menu_action_wizzard"
+        name="Input Course"
+        parent="courseandini_menu_root"
+        action="daftarcourse_terbaru_action_wizzard"
+        sequence="48"/>
+
+</odoo>

@@ -1,0 +1,24 @@
+<odoo>
+
+    <!-- Report Supplier -->
+    <record id="report_mentor_xlsx" model="ir.actions.report">
+        <field name="name">Mentor Excel</field>
+        <field name="model">courseandini.mentor</field>
+        <field name="report_type">xlsx</field>
+        <field name="report_name">courseandini.report_mentor_xlsx</field>
+        <field name="report_file">courseandini.report_mentor_xlsx</field>
+        <field name="binding_model_id" ref="model_courseandini_mentor"/>
+        <field name="binding_type">report</field>
+    </record>
+
+     <record id="report_penjualan_faktur_pdf" model="ir.actions.report">
+        <field name="name">Print Faktur</field>
+        <field name="model">courseandini.penjualan</field>
+        <field name="report_type">qweb-pdf</field>
+        <field name="report_name">courseandini.report_penjualan_faktur_pdf</field>
+        <field name="report_file">courseandini.report_penjualan_faktur_pdf</field>
+        <field name="binding_model_id" ref="model_courseandini_penjualan"/>
+        <field name="binding_type">report</field>
+    </record>
+
+</odoo>

@@ -1,0 +1,7 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_courseandini_kelompokcourse,access.courseandini.kelompokcourse,model_courseandini_kelompokcourse,,1,1,1,1
+access_courseandini_daftarcourse,access.courseandini.daftarcourse,model_courseandini_daftarcourse,,1,1,1,1
+access_courseandini_mentor,access.courseandini.mentor,model_courseandini_mentor,,1,1,1,1
+access_courseandini_penjualan,access.courseandini.penjualan,model_courseandini_penjualan,,1,1,1,1
+access_courseandini_detailpenjualan,access.courseandini.detailpenjualan,model_courseandini_detailpenjualan,,1,1,1,1
+access_courseandini_tambahcourse,access.courseandini.tambahcourse,model_courseandini_tambahcourse,,1,1,1,1

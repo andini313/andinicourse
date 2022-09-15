@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+     <!-- Perubahannya ada di sini -->
+    <!-- dikimart.kelompokbarang tree view -->
+    <record id="courseandini_kelompokcourse_view_tree" model="ir.ui.view">
+        <field name="name">Kelompok Course</field>
+        <field name="model">courseandini.kelompokcourse</field>
+        <field name="arch" type="xml">
+            <tree>
+                <!-- Add your fields here -->
+                <field name="name"/>
+                <field name="kode_course"/>
+                <field name="jumlah"/>
+                <field name="daftarcourse_id"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- dikimart.kelompokbarang form view -->
+    <record id="courseandini_kelompokcourse" model="ir.ui.view">
+        <field name="name">Kelompok Course</field>
+        <field name="model">courseandini.kelompokcourse</field>
+        <field name="arch" type="xml">
+            <form string="Kelompok Barang">
+                <sheet>
+                    <group name="Kelompok" string="Posisi Kelompok">
+                        <!-- Add your fields here -->
+                        <field name="name"/>
+                        <field name="kode_course"/>
+                        <field name="jumlah"/>
+                    </group>
+
+                    <group name="Rak" string="Posisi Barang">
+                        <field name="daftarcourse_id" />
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+		<!-- Akhir Perubahan -->
+
+    <!-- courseandini_kelompokcourse action window -->
+    <record id="courseandini_kelompokcourse_action" model="ir.actions.act_window">
+        <field name="name">Kelompok Course</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">courseandini.kelompokcourse</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem
+        id="courseandini_kelompokcourse_menu_act"
+        name="Kelompok course"
+        parent="courseandini_course_menu_categ"
+        action="courseandini_kelompokcourse_action"
+        sequence="10"/>
+
+</odoo>
