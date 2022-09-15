@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 
-    <!-- dikimart.penjualan tree view -->
+    <!-- courseandini.penjualan tree view -->
     <record id="courseandini_penjualan_view_tree" model="ir.ui.view">
         <field name="name">Daftar Penjualan</field>
         <field name="model">courseandini.penjualan</field>
@@ -15,7 +15,7 @@
         </field>
     </record>
 
-    <!-- dikimart.penjualan form view -->
+    <!-- courseandini.penjualan form view -->
     <record id="courseandini_penjualan_view_form" model="ir.ui.view">
         <field name="name">Form Penjualan</field>
         <field name="model">courseandini.penjualan</field>
@@ -43,7 +43,7 @@
         </field>
     </record>
 
-    <!-- dikimart.penjualan action window -->
+    <!-- courseandini.penjualan action window -->
     <record id="courseandini_penjualan_action" model="ir.actions.act_window">
         <field name="name">Penjualan</field>
         <field name="type">ir.actions.act_window</field>

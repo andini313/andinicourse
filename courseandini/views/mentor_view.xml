@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <odoo>
     
-    <!-- dikimart.barang tree view -->
+    <!-- courseandini.barang tree view -->
     <record id="courseandini_mentor_view_tree" model="ir.ui.view">
         <field name="name">Daftar Barang</field>
         <field name="model">courseandini.mentor</field>
@@ -17,7 +17,7 @@
         </field>
     </record>
 
-    <!-- dikimart.barang form view -->
+    <!-- courseandini.barang form view -->
     <record id="courseandini_mentor_view_form" model="ir.ui.view">
         <field name="name">Form mentor</field>
         <field name="model">courseandini.mentor</field>
@@ -38,7 +38,7 @@
         </field>
     </record>
 
-    <!-- dikimart.barang action window -->
+    <!-- courseandini.barang action window -->
     <record id="courseandini_mentor_action" model="ir.actions.act_window">
         <field name="name">Daftar mentor</field>
         <field name="type">ir.actions.act_window</field>

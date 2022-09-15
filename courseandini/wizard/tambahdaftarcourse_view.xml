@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 
-    <!-- dikimart.barangdatang form view -->
+    <!-- courseandini.barangdatang form view -->
     <record id="daftarcourse_terbaru_view_form_wizzard" model="ir.ui.view">
         <field name="name">Course Terbaru</field>
         <field name="model">courseandini.tambahcourse</field>
@@ -24,7 +24,7 @@
         </field>
     </record>
 
-    <!-- dikimart.barang action window -->
+    <!-- courseandini.barang action window -->
     <record id="daftarcourse_terbaru_action_wizzard" model="ir.actions.act_window">
         <field name="name">Tambah Course</field>
         <field name="type">ir.actions.act_window</field>
