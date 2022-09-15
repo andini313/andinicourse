@@ -7,7 +7,7 @@ class mentor(models.Model):
 
     name_mentor = fields.Char(string='Nama Mentor')
     alamat = fields.Char(string='Alamat')
-    no_tlp = fields.Integer(string='No.Telpon')
+    no_tlp = fields.Char(string='No.Telpon')
     course = fields.Char(string='Course')
 
     course_id = fields.Many2many(comodel_name='courseandini.daftarcourse', string='daftar course')

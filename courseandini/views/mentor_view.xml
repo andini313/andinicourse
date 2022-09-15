@@ -29,10 +29,11 @@
                         <field name="name_mentor" />
                         <field name="alamat" />
                         <field name="no_tlp" />
+                    </group>
                     <group name="course" string="course">
                         <field name="course_id" />
                     </group>
-                    </group>
+                    
                 </sheet>
             </form>
         </field>
