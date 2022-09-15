@@ -2,7 +2,7 @@
 <odoo>
 
      <!-- Perubahannya ada di sini -->
-    <!-- courseandini.kelompokbarang tree view -->
+    <!-- courseandini.kelompokcourse -->
     <record id="courseandini_kelompokcourse_view_tree" model="ir.ui.view">
         <field name="name">Kelompok Course</field>
         <field name="model">courseandini.kelompokcourse</field>
@@ -17,7 +17,7 @@
         </field>
     </record>
 
-    <!-- courseandini.kelompokbarang form view -->
+    <!-- courseandini.kelompokcourse form view -->
     <record id="courseandini_kelompokcourse" model="ir.ui.view">
         <field name="name">Kelompok Course</field>
         <field name="model">courseandini.kelompokcourse</field>

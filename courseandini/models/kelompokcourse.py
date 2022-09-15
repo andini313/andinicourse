@@ -11,7 +11,7 @@ class kelompokcourse(models.Model):
         ('information technology', 'Information Technology')
     ], string='Nama Kelompok course')
 
-    # Perubahannya di sini
+
     kode_course = fields.Char(string='Kode course')
 
     @api.onchange('name')

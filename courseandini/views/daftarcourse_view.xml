@@ -51,7 +51,7 @@
         </field>
     </record>
 
-    <!-- tenrihotel.ruangan action window -->
+    <!-- courseandini.daftarcourse action window -->
     <record id="courseandini_daftarcourse_action" model="ir.actions.act_window">
         <field name="name">Daftar Course</field>
         <field name="type">ir.actions.act_window</field>

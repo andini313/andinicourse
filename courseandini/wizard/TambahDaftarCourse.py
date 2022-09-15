@@ -2,7 +2,7 @@ from odoo import api, fields, models
 
 
 '''
-Membuat model BarangDarang yang inherit
+Membuat model yang inherit
 ke Transient Model, Odoo 14 ke atas harus
 di daftarkan di security
 '''
